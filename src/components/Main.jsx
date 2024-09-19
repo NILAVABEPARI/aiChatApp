@@ -61,8 +61,8 @@ const Main = () => {
                             <img src={assets.user_icon} alt="user icon" className='w-10 rounded-full' />
                             <p>{recentPrompt}</p>
                         </div>
-                        <div className='flex items-center gap-5'>
-                            <img src={assets.gemini_icon} alt="gemini icon" />
+                        <div className='flex items-start gap-5'>
+                            <img src={assets.gemini_icon} alt="gemini icon" className='top-0' />
                             {loading ? <Grid
                                 height="80"
                                 width="80"
